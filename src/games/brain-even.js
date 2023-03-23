@@ -4,13 +4,23 @@ import { cons } from '@hexlet/pairs';
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-export default () => {
+
+const num = () => {
   const number = getRandomInt(1, 50);
-  let correctAns = '';
-  if (number % 2 === 0) {
-    correctAns = 'yes';
+  let validAnswer = false;
+    if (number % 2 === 0) {
+      validAnswer = true;
+    }
+    return [number, validAnswer]
+};
+
+export default () => {
+  let correctAnswer = '';
+  const [number, validAnswer] = num();
+  if (validAnswer === true) {
+    correctAnswer = 'yes';
   } else {
-    correctAns = 'no';
-  }
-  return cons(number, correctAns);
+    correctAnswer = 'no';
+  };
+  return cons(number, correctAnswer);
 };
