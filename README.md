@@ -4,3 +4,6 @@
 <a href="https://codeclimate.com/github/rinaRenno/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/3783a0f1840c5f6d3f33/maintainability" /></a>
 
 https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9
+
+start: make brain-games;
+start game: make brain-(game name);
