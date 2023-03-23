@@ -7,3 +7,5 @@ https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9
 
 start: make brain-games;
 start game: make brain-(game name);
+
+game name: calc, even, progression, gcd, prime.
