@@ -25,6 +25,9 @@
   },
   "type": "module",
   "homepage": "https://github.com/rinaRenno/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
   "devDependencies": {
     "eslint": "^8.34.0",
     "@hexlet/pairs": "^1.1.1",
