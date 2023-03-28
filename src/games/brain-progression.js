@@ -1,3 +1,4 @@
+
 import { cons } from '@hexlet/pairs';
 
 export default () => {
