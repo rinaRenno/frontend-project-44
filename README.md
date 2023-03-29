@@ -5,7 +5,23 @@
 
 https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9
 
-start: make brain-games;
-start game: make brain-(game name);
+## Установка: 
+```
+git clone https://github.com/rinaRenno/frontend-project-44.git
+cd frontend-project-44
+make install
+```
 
-game name: calc, even, progression, gcd, prime.
+## Запуск:
+
+- Для запуска приветствия запустите команду ``` make brain-games ```;
+- Для запуска игры "Проверка на чётность" запустите команду ``` make brain-even ```;
+- Для запуска игры "Калькулятор" запустите команду ``` make brain-calc ```;
+- Для запуска игры "НОД(Наибольший общий делитель)" запустите команду ``` make brain-gcd ```;
+- Для запуска игры "Арифметическая прогрессия" запустите команду" ``` make brain-progression ```;
+- Для запуска игры "Простое ли число?" ``` make brain-prime ```;
+
+### Аскинеma c примером работы игр:
+```
+https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9
+```
