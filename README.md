@@ -19,7 +19,7 @@ make install
 - Для запуска игры "Арифметическая прогрессия" запустите команду" ``` make brain-progression ```;
 - Для запуска игры "Простое ли число?" ``` make brain-prime ```;
 
-### Аскинеma c примером работы игр:
+## Аскинеma c примером работы игр:
 ```
 https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9
 ```
