@@ -1,4 +1,3 @@
-
 import { cons } from '@hexlet/pairs';
 
 function getRandomInt(min, max) {
@@ -8,10 +7,10 @@ function getRandomInt(min, max) {
 const num = () => {
   const number = getRandomInt(1, 50);
   let validAnswer = false;
-    if (number % 2 === 0) {
-      validAnswer = true;
-    }
-    return [number, validAnswer]
+  if (number % 2 === 0) {
+    validAnswer = true;
+  }
+  return [number, validAnswer];
 };
 
 export default () => {
@@ -21,6 +20,6 @@ export default () => {
     correctAnswer = 'yes';
   } else {
     correctAnswer = 'no';
-  };
+  }
   return cons(number, correctAnswer);
 };

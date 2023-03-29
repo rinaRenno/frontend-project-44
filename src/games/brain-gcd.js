@@ -1,4 +1,3 @@
-
 import { cons } from '@hexlet/pairs';
 
 function gcd(a, b) {
