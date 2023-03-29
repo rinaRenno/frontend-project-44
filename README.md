@@ -20,7 +20,5 @@ make install
 - Для запуска игры "Простое ли число?" ``` make brain-prime ```;
 
 ## Аскинеma c примером работы игр:
-```
 [![asciicast](https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9.svg)](https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9)
 
-```
