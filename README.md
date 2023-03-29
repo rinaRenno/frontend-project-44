@@ -21,5 +21,6 @@ make install
 
 ## Аскинеma c примером работы игр:
 ```
-https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9
+[![asciicast](https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9.svg)](https://asciinema.org/a/yNaBWTWdFqZDsjURRsWbL2wL9)
+
 ```
